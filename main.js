@@ -27,7 +27,9 @@ function isLongList(arr){
 
 }
   
-
+function secondCharOfThirdString(str){
+  return str[2][1]
+  }
  /********************************************
  * CODE DOWN HERE IS FOR INTERNAL USE ONLY. *
  *           PLEASE DON'T TOUCH!            *
