@@ -23,13 +23,10 @@ function isLongList(arr){
 1}
 
   function firstItemIsNumber(num){
-if (num[0]=== 0){
-return true
-}else if(num[0] === ""){
-  return false
+    return typeof num[0] ==='number'
 
 }
-  }
+  
 
  /********************************************
  * CODE DOWN HERE IS FOR INTERNAL USE ONLY. *
