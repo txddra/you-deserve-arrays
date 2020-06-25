@@ -2,14 +2,28 @@
  * YOUR CODE HERE *
  ******************/
 function getFirstItemFrom(arr){
-  return arr[0]
+  return arr[length]
 }
 
 function getLastItemFrom(arr){
   return arr[arr.length -1 ]
 }
 
+// function getIndex3(arr){
+//   if( arr === [3]){
+//   return arr[3];
+  
 
+// }else {
+//   return arr[3]
+// }
+
+// }
+
+function isLongList(arr){
+  return arr.length >= 10
+
+  }
 
  /********************************************
  * CODE DOWN HERE IS FOR INTERNAL USE ONLY. *
