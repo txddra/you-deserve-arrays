@@ -9,14 +9,16 @@ function getLastItemFrom(arr){
   return arr[arr.length -1 ]
 }
 
-// function getIndex3(arr){
-//   if(arr.length <4 ){
-//  return arr[3]
-// }
-// else{
-//   return arr[length + 3]
-// }
-// }
+function getIndex3(evenBetter){
+  if(evenBetter.length > 4){
+
+    return evenBetter[3]
+      
+    }else{
+      return evenBetter.pop()
+    }}
+    
+  
 function isLongList(arr){
   return arr.length >= 10
 
