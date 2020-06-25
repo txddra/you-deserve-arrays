@@ -2,7 +2,7 @@
  * YOUR CODE HERE *
  ******************/
 function getFirstItemFrom(arr){
-  return arr[length]
+  return arr[0]
 }
 
 function getLastItemFrom(arr){
@@ -10,19 +10,25 @@ function getLastItemFrom(arr){
 }
 
 // function getIndex3(arr){
-//   if( arr === [3]){
-//   return arr[3];
-  
-
-// }else {
-//   return arr[3]
+//   if(arr.length <4 ){
+//  return arr[3]
 // }
-
+// else{
+//   return arr[length + 3]
 // }
-
+// }
 function isLongList(arr){
   return arr.length >= 10
 
+1}
+
+  function firstItemIsNumber(num){
+if (num[0]=== 0){
+return true
+}else if(num[0] === ""){
+  return false
+
+}
   }
 
  /********************************************
