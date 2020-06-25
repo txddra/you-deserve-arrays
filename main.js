@@ -1,8 +1,9 @@
 /******************
  * YOUR CODE HERE *
  ******************/
-
-
+function getFirstItemFrom(arr){
+return arr[0]
+}
 
 
 
